@@ -2,7 +2,7 @@ form {
     display: flex;
     flex-direction: column;
     background-color: rgb(241, 254, 255);
-    border: solid;
+    box-shadow: 0px .1em rgb(206, 209, 209);
 }
 
 ol {
