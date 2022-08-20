@@ -16,7 +16,7 @@ li {
     display: flex;
     flex-direction: column;
     padding: 1rem;
-
+    
     
 }
 
@@ -51,8 +51,13 @@ img[src="https://cdn.statically.io/gh/TheOdinProject/curriculum/5f37d43908ef9249
     background-color: black;
     color: white;
     text-align:center;
-    
 }
+input[type="password"]:invalid {
+    border-color: red;
+}
+input[type="password"]:valid {
+    border-color: green;
+ }
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
 
 /* Document
