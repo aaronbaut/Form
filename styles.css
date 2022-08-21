@@ -2,7 +2,7 @@ form {
     display: flex;
     flex-direction: column;
     background-color: rgb(241, 254, 255);
-    box-shadow: 0px .1em rgb(206, 209, 209);
+    box-shadow: 0px .1em 0 .1em rgb(206, 209, 209);
 }
 
 ol {
@@ -46,6 +46,12 @@ img[src="https://images.unsplash.com/photo-1585202900225-6d3ac20a6962?ixlib=rb-1
 img[src="https://cdn.statically.io/gh/TheOdinProject/curriculum/5f37d43908ef92499e95a9b90fc3cc291a95014c/html_css/project-sign-up-form/odin-lined.png"] {
     width: 150px;
 }
+
+
+@font-face {
+    font-family: odin-font;
+    src: url(Norse-Bold.otf)
+}
 .odin {
     display: flex;
     align-items: center;
@@ -54,11 +60,14 @@ img[src="https://cdn.statically.io/gh/TheOdinProject/curriculum/5f37d43908ef9249
     background-color: black;
     color: white;
     text-align:center;
+    font-family: odin-font;
+    font-size: 8em;
 }
-input[type="password"]:invalid {
+
+input[type="password"]:invalid:not(:focus) {
     border-color: red;
 }
-input[type="password"]:valid {
+input[type="password"]:valid:not(:focus) {
     border-color: green;
  }
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
