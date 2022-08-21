@@ -1,3 +1,6 @@
+:root {
+    --main-width: 45vw;
+}
 form {
     display: flex;
     flex-direction: column;
@@ -40,7 +43,9 @@ body {
 }
 
 img[src="https://images.unsplash.com/photo-1585202900225-6d3ac20a6962?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80"] {
-    position: relative;    
+    position: relative;  
+    width: var(--main-width);  
+
 }
 
 img[src="https://cdn.statically.io/gh/TheOdinProject/curriculum/5f37d43908ef92499e95a9b90fc3cc291a95014c/html_css/project-sign-up-form/odin-lined.png"] {
@@ -55,13 +60,18 @@ img[src="https://cdn.statically.io/gh/TheOdinProject/curriculum/5f37d43908ef9249
 .odin {
     display: flex;
     align-items: center;
+    justify-content: center;
     opacity: 50%;
     position: absolute;
     background-color: black;
     color: white;
-    text-align:center;
     font-family: odin-font;
     font-size: 8em;
+    top: 80px;
+    width: var(--main-width);
+    height: 25vh;
+    
+
 }
 
 input[type="password"]:invalid:not(:focus) {
