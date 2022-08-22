@@ -12,6 +12,7 @@ form {
 ol {
     display: flex;
     flex-wrap: wrap;
+    padding-left: var(--main-padding);
 
 }
 
@@ -19,8 +20,8 @@ li {
     list-style: none;
     display: flex;
     flex-direction: column;
-    padding: 1rem;
-    padding-left: var(--main-padding);
+    padding: 1rem 1rem 1rem 0;
+    
     
 }
 
