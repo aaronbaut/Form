@@ -1,6 +1,6 @@
 :root {
     --main-width: 45vw;
-    --main-padding: 25px;
+    --main-padding: 40px;
 }
 form {
     display: flex;
@@ -51,7 +51,8 @@ body {
     font-size: 20px;
 }
 .bottom {
-    padding-left: var(--main-padding);
+    padding: 20px 20px 20px var(--main-padding);
+
  }
 
 img[src="https://images.unsplash.com/photo-1585202900225-6d3ac20a6962?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80"] {
@@ -103,6 +104,10 @@ input[type="password"]:valid:not(:focus) {
     background-color: #596D48;
     color: white;
     padding: .5rem;
+    border-radius: 10px;
+ }
+ a {
+    color: #596D48;
  }
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
 
