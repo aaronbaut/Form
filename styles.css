@@ -22,6 +22,11 @@ li {
     
 }
 
+label {
+    letter-spacing: 1.5px;
+    font-size: .75rem;;
+}
+
 input {
     border-radius: 5px;
 }
@@ -29,7 +34,7 @@ input {
 body {
     display: flex;
     background-color: black;
-    
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .content {
@@ -79,6 +84,10 @@ input[type="password"]:invalid:not(:focus) {
 }
 input[type="password"]:valid:not(:focus) {
     border-color: green;
+ }
+
+ input:focus {
+    border:solid rgb(53, 107, 255);
  }
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
 
