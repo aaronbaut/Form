@@ -39,6 +39,8 @@ body {
     display: flex;
     background-color: black;
     font-family: Arial, Helvetica, sans-serif;
+    width:100vw;
+    height: 100vh;
 }
 
 .content {
@@ -109,6 +111,7 @@ input[type="password"]:valid:not(:focus) {
  }
  a {
     color: #596D48;
+    text-decoration: none;
  }
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
 
