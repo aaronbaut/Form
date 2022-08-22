@@ -1,5 +1,6 @@
 :root {
     --main-width: 45vw;
+    --main-padding: 25px;
 }
 form {
     display: flex;
@@ -19,6 +20,7 @@ li {
     display: flex;
     flex-direction: column;
     padding: 1rem;
+    padding-left: var(--main-padding);
     
 }
 
@@ -44,7 +46,7 @@ body {
 }
 
 .top {
-    padding: 200px 35px 45px 20px;
+    padding: 200px 35px 45px var(--main-padding);
     font-size: 20px;
 }
 
@@ -93,11 +95,15 @@ input[type="password"]:valid:not(:focus) {
 
  legend {
     font-size: 2em;
+    padding-left: var(--main-padding);
  }
  button {
     background-color: #596D48;
     color: white;
     padding: .5rem;
+ }
+ .bottom {
+    padding-left: var(--main-padding);
  }
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
 
