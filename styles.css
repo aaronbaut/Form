@@ -32,6 +32,7 @@ label {
 
 input {
     border-radius: 5px;
+    border-color:rgb(184, 184, 184);
 }
 
 body {
@@ -93,7 +94,7 @@ input[type="password"]:valid:not(:focus) {
  }
 
  input:focus {
-    border:solid rgb(53, 107, 255);
+    box-shadow: 1px 1px 1px 1px blue;
  }
 
  .form-intro {
