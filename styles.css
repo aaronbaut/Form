@@ -88,9 +88,6 @@ img[src="https://cdn.statically.io/gh/TheOdinProject/curriculum/5f37d43908ef9249
     height: 25vh;
 }
 
-input[type="password"]:invalid:not(:focus) {
-    border-color: red;
-}
 input[type="password"]:valid:not(:focus) {
     border-color: green;
  }
