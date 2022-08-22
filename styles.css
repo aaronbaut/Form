@@ -94,7 +94,7 @@ input[type="password"]:valid:not(:focus) {
     border:solid rgb(53, 107, 255);
  }
 
- legend {
+ .form-intro {
     font-size: 2em;
     padding-left: var(--main-padding);
  }
